@@ -2,10 +2,9 @@
 - name: this is a fake playbook
   hosts: localhost
   gather_facts: false
-  conenction: local
   tasks:
   - name: Hello World
     ansible.builtin.debug:
-    msg: "Hello ALL"
+      msg: "Hello ALL"
     
   
