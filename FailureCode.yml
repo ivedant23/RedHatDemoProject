@@ -1,2 +1,6 @@
 ---
-name : failure code
+- name: Ansible playbook example
+  hosts: localhost
+  tasks:
+    - name: This task will fail
+      ansible.builtin.command: "false"
